@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b6c6c35d065248d1a8db3157f68ea220" Name="Diagram1" ZoomLevel="63">
+        <EntityTypeShape EntityType="DataModel.Account" Width="1.5" PointX="12.75" PointY="170.125" />
+        <EntityTypeShape EntityType="DataModel.Application" Width="1.5" PointX="5.75" PointY="1.25" />
+        <EntityTypeShape EntityType="DataModel.AreaDelivery" Width="1.5" PointX="11.25" PointY="105" />
+        <EntityTypeShape EntityType="DataModel.Article" Width="1.5" PointX="14.25" PointY="212.625" />
+        <EntityTypeShape EntityType="DataModel.AspNetRole" Width="1.5" PointX="5.25" PointY="143.75" />
+        <EntityTypeShape EntityType="DataModel.AspNetUserClaim" Width="1.5" PointX="9.75" PointY="147.625" />
+        <EntityTypeShape EntityType="DataModel.AspNetUserLogin" Width="1.5" PointX="9.75" PointY="137.875" />
+        <EntityTypeShape EntityType="DataModel.AspNetUser" Width="1.5" PointX="7.5" PointY="132.125" />
+        <EntityTypeShape EntityType="DataModel.Attendance" Width="1.5" PointX="20.25" PointY="156.375" />
+        <EntityTypeShape EntityType="DataModel.AttendanceDate" Width="1.5" PointX="14.25" PointY="201.375" />
+        <EntityTypeShape EntityType="DataModel.BlogCategory" Width="1.5" PointX="14.25" PointY="226" />
+        <EntityTypeShape EntityType="DataModel.BlogPost" Width="1.5" PointX="16.5" PointY="188.125" />
+        <EntityTypeShape EntityType="DataModel.BlogPostCollection" Width="1.5" PointX="14.25" PointY="206.375" />
+        <EntityTypeShape EntityType="DataModel.BlogPostCollectionItem" Width="1.5" PointX="16.5" PointY="208" />
+        <EntityTypeShape EntityType="DataModel.BlogPostCollectionItemMapping" Width="1.5" PointX="18.75" PointY="196.75" />
+        <EntityTypeShape EntityType="DataModel.BlogPostImage" Width="1.5" PointX="18.75" PointY="191.125" />
+        <EntityTypeShape EntityType="DataModel.Brand" Width="1.5" PointX="0.75" PointY="145.875" />
+        <EntityTypeShape EntityType="DataModel.Card" Width="1.5" PointX="12.75" PointY="147.125" />
+        <EntityTypeShape EntityType="DataModel.CategoryExtra" Width="1.5" PointX="13.75" PointY="12.75" />
+        <EntityTypeShape EntityType="DataModel.CategoryExtraMapping" Width="1.5" PointX="5.25" PointY="272.875" />
+        <EntityTypeShape EntityType="DataModel.CheckFinger" Width="1.5" PointX="7.5" PointY="123.625" />
+        <EntityTypeShape EntityType="DataModel.Contact" Width="1.5" PointX="3" PointY="161.5" />
+        <EntityTypeShape EntityType="DataModel.Cost" Width="1.5" PointX="20.25" PointY="165" />
+        <EntityTypeShape EntityType="DataModel.CostCategory" Width="1.5" PointX="18" PointY="169" />
+        <EntityTypeShape EntityType="DataModel.CostInventoryMapping" Width="1.5" PointX="22.5" PointY="167.75" />
+        <EntityTypeShape EntityType="DataModel.Coupon" Width="1.5" PointX="17.25" PointY="158.625" />
+        <EntityTypeShape EntityType="DataModel.CouponCampaign" Width="1.5" PointX="15" PointY="85.375" />
+        <EntityTypeShape EntityType="DataModel.CouponProvider" Width="1.5" PointX="12.75" PointY="86.25" />
+        <EntityTypeShape EntityType="DataModel.Customer" Width="1.5" PointX="5.25" PointY="131.25" />
+        <EntityTypeShape EntityType="DataModel.CustomerDevice" Width="1.5" PointX="7.5" PointY="168.625" />
+        <EntityTypeShape EntityType="DataModel.CustomerFilter" Width="1.5" PointX="3" PointY="260.625" />
+        <EntityTypeShape EntityType="DataModel.CustomerProductMapping" Width="1.5" PointX="10.5" PointY="130" />
+        <EntityTypeShape EntityType="DataModel.CustomerStoreReportMapping" Width="1.5" PointX="10.5" PointY="133.375" />
+        <EntityTypeShape EntityType="DataModel.CustomerType" Width="1.5" PointX="3" PointY="134.125" />
+        <EntityTypeShape EntityType="DataModel.DateHotelReport" Width="1.5" PointX="14.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DataModel.DateProduct" Width="1.5" PointX="22.25" PointY="213" />
+        <EntityTypeShape EntityType="DataModel.DateProductItem" Width="1.5" PointX="14.25" PointY="188" />
+        <EntityTypeShape EntityType="DataModel.DateReport" Width="1.5" PointX="14.25" PointY="151.625" />
+        <EntityTypeShape EntityType="DataModel.DayMode" Width="1.5" PointX="1.5" PointY="23.375" />
+        <EntityTypeShape EntityType="DataModel.DeliveryInfo" Width="1.5" PointX="7.5" PointY="144.5" />
+        <EntityTypeShape EntityType="DataModel.DeliveryInformation" Width="1.5" PointX="15.75" PointY="132.875" />
+        <EntityTypeShape EntityType="DataModel.Device" Width="1.5" PointX="14.25" PointY="191.25" />
+        <EntityTypeShape EntityType="DataModel.District" Width="1.5" PointX="13.5" PointY="106.625" />
+        <EntityTypeShape EntityType="DataModel.Employee" Width="1.5" PointX="5.25" PointY="123" />
+        <EntityTypeShape EntityType="DataModel.EmployeeAttribute" Width="1.5" PointX="15.75" PointY="4.75" />
+        <EntityTypeShape EntityType="DataModel.EmployeeFinger" Width="1.5" PointX="7.5" PointY="128.75" />
+        <EntityTypeShape EntityType="DataModel.EmployeeGroup" Width="1.5" PointX="3" PointY="125" />
+        <EntityTypeShape EntityType="DataModel.EmployeeInStore" Width="1.5" PointX="20.25" PointY="152.875" />
+        <EntityTypeShape EntityType="DataModel.EventLocation" Width="1.5" PointX="15.75" PointY="12.75" />
+        <EntityTypeShape EntityType="DataModel.Favorited" Width="1.5" PointX="13.75" PointY="15.75" />
+        <EntityTypeShape EntityType="DataModel.FingerScanMachine" Width="1.5" PointX="5.25" PointY="113" />
+        <EntityTypeShape EntityType="DataModel.Group" Width="1.5" PointX="6" PointY="269.375" />
+        <EntityTypeShape EntityType="DataModel.Guest" Width="1.5" PointX="9.75" PointY="169" />
+        <EntityTypeShape EntityType="DataModel.ImageCollection" Width="1.5" PointX="14.25" PointY="123" />
+        <EntityTypeShape EntityType="DataModel.ImageCollectionItem" Width="1.5" PointX="16.5" PointY="122.75" />
+        <EntityTypeShape EntityType="DataModel.InventoryChecking" Width="1.5" PointX="8.75" PointY="13" />
+        <EntityTypeShape EntityType="DataModel.InventoryCheckingItem" Width="1.5" PointX="11" PointY="13" />
+        <EntityTypeShape EntityType="DataModel.InventoryDateReport" Width="1.5" PointX="14.25" PointY="220" />
+        <EntityTypeShape EntityType="DataModel.InventoryDateReportItem" Width="1.5" PointX="16.5" PointY="220.875" />
+        <EntityTypeShape EntityType="DataModel.InventoryReceipt" Width="1.5" PointX="17.25" PointY="162.5" />
+        <EntityTypeShape EntityType="DataModel.InventoryReceiptItem" Width="1.5" PointX="22.5" PointY="163.875" />
+        <EntityTypeShape EntityType="DataModel.InventoryTemplateReport" Width="1.5" PointX="3" PointY="140.625" />
+        <EntityTypeShape EntityType="DataModel.Language" Width="1.5" PointX="14.25" PointY="198.125" />
+        <EntityTypeShape EntityType="DataModel.LanguageKey" Width="1.5" PointX="14.25" PointY="223.125" />
+        <EntityTypeShape EntityType="DataModel.LanguageValue" Width="1.5" PointX="19.5" PointY="210.5" />
+        <EntityTypeShape EntityType="DataModel.MachineConnect" Width="1.5" PointX="15.75" PointY="15.75" />
+        <EntityTypeShape EntityType="DataModel.Membership" Width="1.5" PointX="10.5" PointY="141.375" />
+        <EntityTypeShape EntityType="DataModel.MembershipType" Width="1.5" PointX="3" PointY="143.75" />
+        <EntityTypeShape EntityType="DataModel.Menu" Width="1.5" PointX="7.5" PointY="154.5" />
+        <EntityTypeShape EntityType="DataModel.Notification" Width="1.5" PointX="8.75" PointY="16.75" />
+        <EntityTypeShape EntityType="DataModel.Order" Width="1.5" PointX="13.5" PointY="127.25" />
+        <EntityTypeShape EntityType="DataModel.OrderDetail" Width="1.5" PointX="19" PointY="200.625" />
+        <EntityTypeShape EntityType="DataModel.OrderDetailPromotionMapping" Width="1.5" PointX="21.25" PointY="202.375" />
+        <EntityTypeShape EntityType="DataModel.OrderFeeItem" Width="1.5" PointX="18.75" PointY="132.875" />
+        <EntityTypeShape EntityType="DataModel.OrderGroup" Width="1.5" PointX="7.5" PointY="164.625" />
+        <EntityTypeShape EntityType="DataModel.OrderPromotionMapping" Width="1.5" PointX="15.75" PointY="128.5" />
+        <EntityTypeShape EntityType="DataModel.Partner" Width="1.5" PointX="11.25" PointY="98.25" />
+        <EntityTypeShape EntityType="DataModel.PartnerMapping" Width="1.5" PointX="3" PointY="149.125" />
+        <EntityTypeShape EntityType="DataModel.Payment" Width="1.5" PointX="16.75" PointY="149.5" />
+        <EntityTypeShape EntityType="DataModel.PaymentPartner" Width="1.5" PointX="10.75" PointY="16.75" />
+        <EntityTypeShape EntityType="DataModel.PaymentReport" Width="1.5" PointX="14.25" PointY="236.875" />
+        <EntityTypeShape EntityType="DataModel.PayrollCategory" Width="1.5" PointX="1.5" PointY="1.125" />
+        <EntityTypeShape EntityType="DataModel.PayrollDetail" Width="1.5" PointX="3.75" PointY="0.875" />
+        <EntityTypeShape EntityType="DataModel.PayrollPeriod" Width="1.5" PointX="3" PointY="8.875" />
+        <EntityTypeShape EntityType="DataModel.PaySlip" Width="1.5" PointX="5.25" PointY="8.5" />
+        <EntityTypeShape EntityType="DataModel.PayslipAttribute" Width="1.5" PointX="8.25" PointY="5.25" />
+        <EntityTypeShape EntityType="DataModel.PayslipAttributeMapping" Width="1.5" PointX="10.5" PointY="9" />
+        <EntityTypeShape EntityType="DataModel.PaySlipItem" Width="1.5" PointX="7.5" PointY="8.875" />
+        <EntityTypeShape EntityType="DataModel.PaySlipTemplate" Width="1.5" PointX="0.75" PointY="6.125" />
+        <EntityTypeShape EntityType="DataModel.Pos" Width="1.5" PointX="9.75" PointY="159.125" />
+        <EntityTypeShape EntityType="DataModel.PosConfig" Width="1.5" PointX="15" PointY="9" />
+        <EntityTypeShape EntityType="DataModel.PosFile" Width="1.5" PointX="12.75" PointY="8.875" />
+        <EntityTypeShape EntityType="DataModel.PriceAddition" Width="1.5" PointX="16.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DataModel.PriceGroup" Width="1.5" PointX="11.25" PointY="117.375" />
+        <EntityTypeShape EntityType="DataModel.PriceNight" Width="1.5" PointX="13.5" PointY="81.5" />
+        <EntityTypeShape EntityType="DataModel.Product" Width="1.5" PointX="8.25" PointY="265.125" />
+        <EntityTypeShape EntityType="DataModel.ProductBrand" Width="1.5" PointX="6" PointY="276.5" />
+        <EntityTypeShape EntityType="DataModel.ProductCategory" Width="1.5" PointX="3" PointY="269.5" />
+        <EntityTypeShape EntityType="DataModel.ProductCollection" Width="1.5" PointX="3" PointY="154.125" />
+        <EntityTypeShape EntityType="DataModel.ProductCollectionItemMapping" Width="1.5" PointX="10.5" PointY="217.25" />
+        <EntityTypeShape EntityType="DataModel.ProductComboDetail" Width="1.5" PointX="10.5" PointY="296.75" />
+        <EntityTypeShape EntityType="DataModel.ProductDetailMapping" Width="1.5" PointX="19.25" PointY="219.875" />
+        <EntityTypeShape EntityType="DataModel.ProductImage" Width="1.5" PointX="10.5" PointY="289.75" />
+        <EntityTypeShape EntityType="DataModel.ProductImageCollection" Width="1.5" PointX="10.75" PointY="5.125" />
+        <EntityTypeShape EntityType="DataModel.ProductImageCollectionItemMapping" Width="1.5" PointX="13" PointY="5" />
+        <EntityTypeShape EntityType="DataModel.ProductItem" Width="1.5" PointX="3" PointY="119.5" />
+        <EntityTypeShape EntityType="DataModel.ProductItemCategory" Width="1.5" PointX="0.75" PointY="120.75" />
+        <EntityTypeShape EntityType="DataModel.ProductItemCompositionMapping" Width="1.5" PointX="10.5" PointY="273" />
+        <EntityTypeShape EntityType="DataModel.ProductSpecification" Width="1.5" PointX="10.5" PointY="293.5" />
+        <EntityTypeShape EntityType="DataModel.Profile" Width="1.5" PointX="12.5" PointY="1.125" />
+        <EntityTypeShape EntityType="DataModel.Promotion" Width="1.5" PointX="13.5" PointY="96.5" />
+        <EntityTypeShape EntityType="DataModel.PromotionDetail" Width="1.5" PointX="13.5" PointY="90.25" />
+        <EntityTypeShape EntityType="DataModel.PromotionPartner" Width="1.5" PointX="11.25" PointY="124.125" />
+        <EntityTypeShape EntityType="DataModel.PromotionStoreMapping" Width="1.5" PointX="17.25" PointY="155" />
+        <EntityTypeShape EntityType="DataModel.Provider" Width="1.5" PointX="3.75" PointY="168.125" />
+        <EntityTypeShape EntityType="DataModel.ProviderProductItemMapping" Width="1.5" PointX="8" PointY="140.75" />
+        <EntityTypeShape EntityType="DataModel.Province" Width="1.5" PointX="11.25" PointY="108.5" />
+        <EntityTypeShape EntityType="DataModel.Rating" Width="1.5" PointX="16.75" PointY="201.5" />
+        <EntityTypeShape EntityType="DataModel.RatingStar" Width="1.5" PointX="10.5" PointY="284.375" />
+        <EntityTypeShape EntityType="DataModel.ReportTracking" Width="1.5" PointX="14.25" PointY="160.375" />
+        <EntityTypeShape EntityType="DataModel.RequestHistory" Width="1.5" PointX="17.75" PointY="3.75" />
+        <EntityTypeShape EntityType="DataModel.Role" Width="1.5" PointX="8" PointY="1.125" />
+        <EntityTypeShape EntityType="DataModel.Room" Width="1.5" PointX="16.5" PointY="215.375" />
+        <EntityTypeShape EntityType="DataModel.RoomCategory" Width="1.5" PointX="14.25" PointY="216.125" />
+        <EntityTypeShape EntityType="DataModel.RoomCategoryPriceGroupMapping" Width="1.5" PointX="19.5" PointY="216.625" />
+        <EntityTypeShape EntityType="DataModel.RoomFloor" Width="1.5" PointX="14.25" PointY="241.625" />
+        <EntityTypeShape EntityType="DataModel.SalaryHour" Width="1.5" PointX="3.75" PointY="17.75" />
+        <EntityTypeShape EntityType="DataModel.SalaryRule" Width="1.5" PointX="0.75" PointY="10.75" />
+        <EntityTypeShape EntityType="DataModel.Store" Width="1.5" PointX="12" PointY="151.875" />
+        <EntityTypeShape EntityType="DataModel.StoreDomain" Width="1.5" PointX="14.25" PointY="175.75" />
+        <EntityTypeShape EntityType="DataModel.StoreGroup" Width="1.5" PointX="3" PointY="266.625" />
+        <EntityTypeShape EntityType="DataModel.StoreGroupMapping" Width="1.5" PointX="17.25" PointY="212.375" />
+        <EntityTypeShape EntityType="DataModel.StoreTheme" Width="1.5" PointX="23.25" PointY="158.125" />
+        <EntityTypeShape EntityType="DataModel.StoreUser" Width="1.5" PointX="14.25" PointY="120.375" />
+        <EntityTypeShape EntityType="DataModel.StoreWebRoute" Width="1.5" PointX="14.25" PointY="116.375" />
+        <EntityTypeShape EntityType="DataModel.StoreWebRouteModel" Width="1.5" PointX="16.5" PointY="116.75" />
+        <EntityTypeShape EntityType="DataModel.StoreWebSetting" Width="1.5" PointX="14.25" PointY="166.75" />
+        <EntityTypeShape EntityType="DataModel.StoreWebViewCounter" Width="1.5" PointX="14.25" PointY="112.25" />
+        <EntityTypeShape EntityType="DataModel.SubRentGroup" Width="1.5" PointX="9.75" PointY="164.5" />
+        <EntityTypeShape EntityType="DataModel.SystemPartnerMapping" Width="1.5" PointX="5.75" PointY="17.75" />
+        <EntityTypeShape EntityType="DataModel.Tag" Width="1.5" PointX="19.5" PointY="224.25" />
+        <EntityTypeShape EntityType="DataModel.TagMapping" Width="1.5" PointX="21.75" PointY="209.25" />
+        <EntityTypeShape EntityType="DataModel.TaskDetail" Width="1.5" PointX="17.75" PointY="8.75" />
+        <EntityTypeShape EntityType="DataModel.TemplateDetailMapping" Width="1.5" PointX="6" PointY="5.125" />
+        <EntityTypeShape EntityType="DataModel.TemplateReportProductItemMapping" Width="1.5" PointX="5.25" PointY="140.75" />
+        <EntityTypeShape EntityType="DataModel.TemplateRuleMapping" Width="1.5" PointX="3" PointY="5.125" />
+        <EntityTypeShape EntityType="DataModel.Theme" Width="1.5" PointX="21" PointY="148.5" />
+        <EntityTypeShape EntityType="DataModel.TimeFrame" Width="1.5" PointX="5.25" PointY="117.5" />
+        <EntityTypeShape EntityType="DataModel.TimeModeRule" Width="1.5" PointX="1.5" PointY="15.375" />
+        <EntityTypeShape EntityType="DataModel.TimeModeType" Width="1.5" PointX="1.5" PointY="20.625" />
+        <EntityTypeShape EntityType="DataModel.TokenUser" Width="1.5" PointX="17.75" PointY="13.75" />
+        <EntityTypeShape EntityType="DataModel.Transaction" Width="1.5" PointX="15" PointY="170.25" />
+        <EntityTypeShape EntityType="DataModel.UserAccess" Width="1.5" PointX="17.75" PointY="16.75" />
+        <EntityTypeShape EntityType="DataModel.UserAccess_Campaign" Width="1.5" PointX="18.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DataModel.User" Width="1.5" PointX="10.25" PointY="1" />
+        <EntityTypeShape EntityType="DataModel.VATOrder" Width="1.5" PointX="6" PointY="149.25" />
+        <EntityTypeShape EntityType="DataModel.VATOrderMapping" Width="1.5" PointX="15.75" PointY="139.125" />
+        <EntityTypeShape EntityType="DataModel.ViewCounter" Width="1.5" PointX="14.25" PointY="233.5" />
+        <EntityTypeShape EntityType="DataModel.Voucher" Width="1.5" PointX="15.75" PointY="142.125" />
+        <EntityTypeShape EntityType="DataModel.Ward" Width="1.5" PointX="11.25" PointY="114.125" />
+        <EntityTypeShape EntityType="DataModel.WebCustomerFeedback" Width="1.5" PointX="12.75" PointY="18.75" />
+        <EntityTypeShape EntityType="DataModel.WebElement" Width="1.5" PointX="6" PointY="13.125" />
+        <EntityTypeShape EntityType="DataModel.WebElementType" Width="1.5" PointX="3.75" PointY="13" />
+        <EntityTypeShape EntityType="DataModel.WebMenu" Width="1.5" PointX="16.5" PointY="182.875" />
+        <EntityTypeShape EntityType="DataModel.WebMenuCategory" Width="1.5" PointX="14.25" PointY="183.875" />
+        <EntityTypeShape EntityType="DataModel.WebPage" Width="1.5" PointX="14.25" PointY="194.375" />
+        <EntityTypeShape EntityType="DataModel.CustomerFeedback" Width="1.5" PointX="19.75" PointY="3.75" />
+        <AssociationConnector Association="DataModel.FK__Account__Members__0B27A5C0" />
+        <AssociationConnector Association="DataModel.FK_Payment_Account" />
+        <AssociationConnector Association="DataModel.FK_Transaction_Account" />
+        <AssociationConnector Association="DataModel.RoleApplication" />
+        <AssociationConnector Association="DataModel.UserApplication" />
+        <AssociationConnector Association="DataModel.FK_AreaDelivery_AreaDelivery" />
+        <AssociationConnector Association="DataModel.FK_District_AreaDelivery" />
+        <AssociationConnector Association="DataModel.FK_Province_AreaDelivery" />
+        <AssociationConnector Association="DataModel.FK_Article_Store" />
+        <AssociationConnector Association="DataModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="DataModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="DataModel.FK_AspNetUsers_Customer" />
+        <AssociationConnector Association="DataModel.FK_AspNetUsers_Employee" />
+        <AssociationConnector Association="DataModel.FK_AspNetUsers_Store" />
+        <AssociationConnector Association="DataModel.FK_DeliveryAddress_AspNetUsers" />
+        <AssociationConnector Association="DataModel.FK_DeliveryInformation_AspNetUsers" />
+        <AssociationConnector Association="DataModel.FK_RatingProduct_AspNetUsers" />
+        <AssociationConnector Association="DataModel.FK_Attendance_Employee" />
+        <AssociationConnector Association="DataModel.FK_Attendance_Store" />
+        <AssociationConnector Association="DataModel.FK_AttendanceDate_Store" />
+        <AssociationConnector Association="DataModel.FK_BlogCategory_Store" />
+        <AssociationConnector Association="DataModel.FK_BlogPost_BlogCategory" />
+        <AssociationConnector Association="DataModel.FK_TagMapping_BlogCategory" />
+        <AssociationConnector Association="DataModel.FK_BlogPost_Store" />
+        <AssociationConnector Association="DataModel.FK_BlogPostCollectionItem_BlogPost" />
+        <AssociationConnector Association="DataModel.FK_BlogPostImage_BlogPost" />
+        <AssociationConnector Association="DataModel.FK_TagMapping_BlogPost" />
+        <AssociationConnector Association="DataModel.FK_BlogPostCollection_BlogPostCollection" />
+        <AssociationConnector Association="DataModel.FK_BlogPostCollection_Store" />
+        <AssociationConnector Association="DataModel.FK_BlogPostCollectionItem_BlogPostCollection" />
+        <AssociationConnector Association="DataModel.FK_BlogPostCollectionItem_BlogPostCollection1" />
+        <AssociationConnector Association="DataModel.FK__Card__BrandId__2022C2A6" />
+        <AssociationConnector Association="DataModel.FK__Membershi__Brand__558AAF1E" />
+        <AssociationConnector Association="DataModel.FK__Membershi__Brand__567ED357" />
+        <AssociationConnector Association="DataModel.FK__Membershi__Brand__5772F790" />
+        <AssociationConnector Association="DataModel.FK__Membershi__Brand__58671BC9" />
+        <AssociationConnector Association="DataModel.FK__PartnerMa__Brand__7132C993" />
+        <AssociationConnector Association="DataModel.FK__PartnerMa__Brand__7226EDCC" />
+        <AssociationConnector Association="DataModel.FK__PartnerMa__Brand__731B1205" />
+        <AssociationConnector Association="DataModel.FK__PartnerMa__Brand__740F363E" />
+        <AssociationConnector Association="DataModel.FK_Contact_Brand" />
+        <AssociationConnector Association="DataModel.FK_CustomerFilter_Brand" />
+        <AssociationConnector Association="DataModel.FK_CustomerType_Brand" />
+        <AssociationConnector Association="DataModel.FK_InventoryTemplateReport_Brand" />
+        <AssociationConnector Association="DataModel.FK_Membership_Brand" />
+        <AssociationConnector Association="DataModel.FK_PartnerMapping_Brand" />
+        <AssociationConnector Association="DataModel.FK_ProductCategory_Brand" />
+        <AssociationConnector Association="DataModel.FK_ProductCollection_Brand" />
+        <AssociationConnector Association="DataModel.FK_Store_Brand" />
+        <AssociationConnector Association="DataModel.FK_StoreGroup_Brand" />
+        <AssociationConnector Association="DataModel.FK_VATOrder_Brand" />
+        <AssociationConnector Association="DataModel.FK__Card__Membership__2116E6DF" />
+        <AssociationConnector Association="DataModel.FK_Payment_Card" />
+        <AssociationConnector Association="DataModel.FK_CategoryExtra_ProductCategory" />
+        <AssociationConnector Association="DataModel.FK_CategoryExtra_ProductCategory1" />
+        <AssociationConnector Association="DataModel.FK_CheckFinger_Employee" />
+        <AssociationConnector Association="DataModel.FK_CheckFinger_FingerScanMachine" />
+        <AssociationConnector Association="DataModel.FK_Cost_CostCategory" />
+        <AssociationConnector Association="DataModel.FK_Cost_Store" />
+        <AssociationConnector Association="DataModel.FK_CostInventoryMapping_Cost" />
+        <AssociationConnector Association="DataModel.FK_Payment_Cost" />
+        <AssociationConnector Association="DataModel.FK_CostInventoryMapping_InventoryReceipt" />
+        <AssociationConnector Association="DataModel.FK_Voucher_Store" />
+        <AssociationConnector Association="DataModel.FK_Vourcher_VoucherCampagin" />
+        <AssociationConnector Association="DataModel.FK_VoucherCampagin_VourcherProvider" />
+        <AssociationConnector Association="DataModel.FK_Customer_CustomerType" />
+        <AssociationConnector Association="DataModel.FK_CustomerDevice_Customer" />
+        <AssociationConnector Association="DataModel.FK_CustomerProduct_Customer" />
+        <AssociationConnector Association="DataModel.FK_CustomerStore_Customer" />
+        <AssociationConnector Association="DataModel.FK_DeliveryInfo_Customer" />
+        <AssociationConnector Association="DataModel.FK_Membership_Customer" />
+        <AssociationConnector Association="DataModel.FK_Order_Customer" />
+        <AssociationConnector Association="DataModel.FK_RatingProduct_Customer" />
+        <AssociationConnector Association="DataModel.FK_RentGroup_Customer" />
+        <AssociationConnector Association="DataModel.FK_CustomerProductMapping_Product" />
+        <AssociationConnector Association="DataModel.FK_CustomerStore_Store" />
+        <AssociationConnector Association="DataModel.FK_DateProduct_Product" />
+        <AssociationConnector Association="DataModel.FK_DateProduct_Store" />
+        <AssociationConnector Association="DataModel.FK_DateProductItem_Store" />
+        <AssociationConnector Association="DataModel.FK_DateReport_Store" />
+        <AssociationConnector Association="DataModel.FK_TimeModeRule_DayMode" />
+        <AssociationConnector Association="DataModel.FK_DeliveryInformation_District" />
+        <AssociationConnector Association="DataModel.FK_DeliveryInformation_Province" />
+        <AssociationConnector Association="DataModel.FK__Device__StoreId__3BCADD1B" />
+        <AssociationConnector Association="DataModel.FK_District_Province" />
+        <AssociationConnector Association="DataModel.FK_Order_District" />
+        <AssociationConnector Association="DataModel.FK_Ward_District" />
+        <AssociationConnector Association="DataModel.FK_Employee_EmployeeGroup" />
+        <AssociationConnector Association="DataModel.FK_EmployeeFingers_Employee" />
+        <AssociationConnector Association="DataModel.FK_EmployeeInStore_Employee" />
+        <AssociationConnector Association="DataModel.FK_TimeFrame_EmployeeGroup" />
+        <AssociationConnector Association="DataModel.FK_EmployeeInStore_Store" />
+        <AssociationConnector Association="DataModel.FK_Product_Group" />
+        <AssociationConnector Association="DataModel.FK_Store_Group" />
+        <AssociationConnector Association="DataModel.FK_Guest_RentGroup" />
+        <AssociationConnector Association="DataModel.FK_ImageCollection_Store" />
+        <AssociationConnector Association="DataModel.FK_ImageCollectionItem_ImageCollection" />
+        <AssociationConnector Association="DataModel.FK_InventoryCheckingItem_InventoryChecking" />
+        <AssociationConnector Association="DataModel.FK_InventoryReport_Store" />
+        <AssociationConnector Association="DataModel.FK_ReportItem_InventoryReport" />
+        <AssociationConnector Association="DataModel.FK__ReportIte__ItemI__55009F39" />
+        <AssociationConnector Association="DataModel.FK_InventoryReceipt_Provider" />
+        <AssociationConnector Association="DataModel.FK_InventoryReceipt_Store3" />
+        <AssociationConnector Association="DataModel.FK_InventoryReceipt_Store4" />
+        <AssociationConnector Association="DataModel.FK_InventoryReceipt_Store5" />
+        <AssociationConnector Association="DataModel.FK_ReceiptItem_InventoryReceipt" />
+        <AssociationConnector Association="DataModel.FK_ReceiptItem_ProductItem" />
+        <AssociationConnector Association="DataModel.FK_TemplateReportProductItemMapping_InventoryTemplateReport" />
+        <AssociationConnector Association="DataModel.FK_Language_Store" />
+        <AssociationConnector Association="DataModel.FK_LanguageValue_Language" />
+        <AssociationConnector Association="DataModel.FK_LanguageKey_Store" />
+        <AssociationConnector Association="DataModel.FK_LanguageValue_LanguageKey" />
+        <AssociationConnector Association="DataModel.FK_Membership_MembershipType" />
+        <AssociationConnector Association="DataModel.FK_Voucher_MembershipCard" />
+        <AssociationConnector Association="DataModel.FK_Menu_Menu" />
+        <AssociationConnector Association="DataModel.FK_Order_PriceGroup" />
+        <AssociationConnector Association="DataModel.FK_Order_PromotionPartner" />
+        <AssociationConnector Association="DataModel.FK_Order_Province" />
+        <AssociationConnector Association="DataModel.FK_Order_Room" />
+        <AssociationConnector Association="DataModel.FK_Order_Store" />
+        <AssociationConnector Association="DataModel.FK_Order_SubRentGroup" />
+        <AssociationConnector Association="DataModel.FK_Order_Ward" />
+        <AssociationConnector Association="DataModel.FK_OrderDetail_Order" />
+        <AssociationConnector Association="DataModel.FK_OrderFeeItem_Order" />
+        <AssociationConnector Association="DataModel.FK_OrderPromotionMapping_Order" />
+        <AssociationConnector Association="DataModel.FK_Payment_Order" />
+        <AssociationConnector Association="DataModel.FK_PromotionPartnerOrder" />
+        <AssociationConnector Association="DataModel.FK_RatingProduct_Order" />
+        <AssociationConnector Association="DataModel.FK_VATOrderMapping_Order" />
+        <AssociationConnector Association="DataModel.FK_OrderDetail_OrderDetail" />
+        <AssociationConnector Association="DataModel.FK_OrderDetail_OrderDetailPromotionMapping" />
+        <AssociationConnector Association="DataModel.FK_OrderDetail_OrderPromotionMapping" />
+        <AssociationConnector Association="DataModel.FK_OrderDetail_Product" />
+        <AssociationConnector Association="DataModel.FK_OrderDetailPromotionMapping_OrderDetail" />
+        <AssociationConnector Association="DataModel.FK_OrderDetailPromotionMapping_Promotion" />
+        <AssociationConnector Association="DataModel.FK_OrderFeeItem_PriceGroup" />
+        <AssociationConnector Association="DataModel.FK_SubRentGroup_RentGroup" />
+        <AssociationConnector Association="DataModel.FK_OrderPromotionMapping_Promotion" />
+        <AssociationConnector Association="DataModel.FK__PartnerMa__Partn__75035A77" />
+        <AssociationConnector Association="DataModel.FK__PartnerMa__Partn__75F77EB0" />
+        <AssociationConnector Association="DataModel.FK__PartnerMa__Partn__76EBA2E9" />
+        <AssociationConnector Association="DataModel.FK__PartnerMa__Partn__77DFC722" />
+        <AssociationConnector Association="DataModel.FK__Promotion__Partn__16644E42" />
+        <AssociationConnector Association="DataModel.FK_PaymentReport_Store" />
+        <AssociationConnector Association="DataModel.FK_PayrollDetail_PayrollCategory" />
+        <AssociationConnector Association="DataModel.FK_PaySlipItem_PayrollDetail" />
+        <AssociationConnector Association="DataModel.FK_TemplateDetailMapping_PayrollDetail" />
+        <AssociationConnector Association="DataModel.FK_PayrollPeriod_PaySlipTemplate" />
+        <AssociationConnector Association="DataModel.FK_PaySlip_PayrollPeriod" />
+        <AssociationConnector Association="DataModel.FK_PaySlip_TemplateDetailMapping1" />
+        <AssociationConnector Association="DataModel.FK_PayslipAttributeMapping_PaySlip" />
+        <AssociationConnector Association="DataModel.FK_PaySlipItem_PaySlip" />
+        <AssociationConnector Association="DataModel.FK_PayslipAttributeMapping_PayslipAttribute" />
+        <AssociationConnector Association="DataModel.FK_TemplateDetailMapping_PaySlipTemplate" />
+        <AssociationConnector Association="DataModel.FK_TemplateRuleMapping_PaySlipTemplate" />
+        <AssociationConnector Association="DataModel.FK_Store_POS" />
+        <AssociationConnector Association="DataModel.FK_PosConfig_PosFile" />
+        <AssociationConnector Association="DataModel.FK_CategoryPriceGroup_PriceGroup" />
+        <AssociationConnector Association="DataModel.FK_PriceNight_PriceGroup" />
+        <AssociationConnector Association="DataModel.FK_Product_ProductBrand" />
+        <AssociationConnector Association="DataModel.FK_Product_ProductCategory" />
+        <AssociationConnector Association="DataModel.FK_ProductCollectionItemMapping_Product" />
+        <AssociationConnector Association="DataModel.FK_ProductComboDetail_Product" />
+        <AssociationConnector Association="DataModel.FK_ProductDetail_Product" />
+        <AssociationConnector Association="DataModel.FK_ProductImage_Product" />
+        <AssociationConnector Association="DataModel.FK_ProductItemCompositionMapping_Product" />
+        <AssociationConnector Association="DataModel.FK_ProductSpecification_Product" />
+        <AssociationConnector Association="DataModel.FK_RatingProduct_Product" />
+        <AssociationConnector Association="DataModel.FK_RatingStar_Product" />
+        <AssociationConnector Association="DataModel.FK_ProductCategory_ProductCategory" />
+        <AssociationConnector Association="DataModel.FK_ProductCollection_Store" />
+        <AssociationConnector Association="DataModel.FK_ProductCollectionItem_ProductCollection" />
+        <AssociationConnector Association="DataModel.FK_ProductDetail_Store" />
+        <AssociationConnector Association="DataModel.FK_ProductImageCollectionItemMapping_ProductImageCollection" />
+        <AssociationConnector Association="DataModel.FK__Compositi__ItemI__76969D2E" />
+        <AssociationConnector Association="DataModel.FK_ProductItem_ItemCategory" />
+        <AssociationConnector Association="DataModel.FK_ProviderProductItem_ProductItem" />
+        <AssociationConnector Association="DataModel.FK_TemplateReportProductItemMapping_ProductItem" />
+        <AssociationConnector Association="DataModel.UserProfile" />
+        <AssociationConnector Association="DataModel.FK_PromotionStoreMapping_Promotion" />
+        <AssociationConnector Association="DataModel.FK_Voucher_Promotion" />
+        <AssociationConnector Association="DataModel.FK_Voucher_PromotionDetail" />
+        <AssociationConnector Association="DataModel.FK_PromotionPartner_PromotionPartner" />
+        <AssociationConnector Association="DataModel.FK_PromotionStoreMapping_Store" />
+        <AssociationConnector Association="DataModel.FK_ProviderProductItem_Provider" />
+        <AssociationConnector Association="DataModel.FK_VATOrder_Provider" />
+        <AssociationConnector Association="DataModel.FK_ReportTracking_Store" />
+        <AssociationConnector Association="DataModel.FK__Room__CategoryID__76EBA2E9" />
+        <AssociationConnector Association="DataModel.FK__Room__FloorID__4589517F" />
+        <AssociationConnector Association="DataModel.FK_CategoryPriceGroup_RoomCategory" />
+        <AssociationConnector Association="DataModel.FK_RoomCategory_Store" />
+        <AssociationConnector Association="DataModel.FK_SubRentGroup_RoomCategory" />
+        <AssociationConnector Association="DataModel.FK_SalaryRule_TimeModeRule" />
+        <AssociationConnector Association="DataModel.FK_TemplateRuleMapping_SalaryRule" />
+        <AssociationConnector Association="DataModel.FK_StoreDomain_Store" />
+        <AssociationConnector Association="DataModel.FK_StoreGroupMapping_Store" />
+        <AssociationConnector Association="DataModel.FK_StoreTheme_Store" />
+        <AssociationConnector Association="DataModel.FK_StoreUser_Store" />
+        <AssociationConnector Association="DataModel.FK_StoreWebRoute_Store" />
+        <AssociationConnector Association="DataModel.FK_StoreWebSetting_Store" />
+        <AssociationConnector Association="DataModel.FK_StoreWebViewCounter_Store" />
+        <AssociationConnector Association="DataModel.FK_ViewCounter_Store" />
+        <AssociationConnector Association="DataModel.FK_WebMenuCategory_Store" />
+        <AssociationConnector Association="DataModel.FK_WebPage_Store" />
+        <AssociationConnector Association="DataModel.FK_StoreGroupMapping_StoreGroup" />
+        <AssociationConnector Association="DataModel.FK_StoreTheme_Theme" />
+        <AssociationConnector Association="DataModel.FK_StoreWebRoute_StoreWebRoute" />
+        <AssociationConnector Association="DataModel.FK_StoreWebRouteModel_StoreWebRoute" />
+        <AssociationConnector Association="DataModel.FK_TagMapping_Tag" />
+        <AssociationConnector Association="DataModel.FK_TimeModeRule_TimeModeType" />
+        <AssociationConnector Association="DataModel.FK_VATOrderMapping_VATOrder" />
+        <AssociationConnector Association="DataModel.FK_WebElement_WebElementType" />
+        <AssociationConnector Association="DataModel.FK_WebMenu_WebMenu" />
+        <AssociationConnector Association="DataModel.FK_WebMenu_WebMenuCategory" />
+        <AssociationConnector Association="DataModel.AspNetUserRoles" />
+        <AssociationConnector Association="DataModel.MenuRole" />
+        <AssociationConnector Association="DataModel.UsersInRoles" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
